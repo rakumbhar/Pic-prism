@@ -1,9 +1,11 @@
-
-
+import HeroSection from '../components/HeroSection'
 const Home = () => {
   return (
     <>
-    <div>Home</div>
+      <div className='mt-36 ml-20'>
+
+      <HeroSection/>
+      </div>
     </>
   )
 }
