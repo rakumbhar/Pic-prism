@@ -7,7 +7,7 @@ const Navbar = () => {
         <Link to='/' className='font-bold text-3xl'>PicPrism</Link>
       </div>
       <ul className='flex gap-5 text-lg font-semibold text-gray-600 '>
-        <Link className='hover:text-black cursor-pointer sm:p-2 ' to='/'>Home</Link>
+        <Link className='hover:text-black cursor-pointer sm:p-2' to='/'>Home</Link>
         <Link className='hover:text-black cursor-pointer sm:p-2 ' to='/about'>About</Link>
         <Link className='hover:text-black cursor-pointer sm:p-2 ' to='/signup'>Signup</Link>
         <Link className='hover:text-black cursor-pointer sm:p-2 ' to='/login'>Login</Link>
